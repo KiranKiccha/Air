@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FilipAir';
+
+  familiy=[];
+
+  familyList(){
+    alert(this.familiy=['Sundaresh','Ambika','Harsha','Suma','Nanjundi','Kiran','Dinesh','Vaishu']);
+  }
+
+
 }
