@@ -8,6 +8,12 @@
       height: 50px;
       width: 300px;
     }
+
+    .bwm-search:hover {
+      background-color: black;
+      color: white;
+    }
+   
   
   
     .navbar-brand {
@@ -27,6 +33,7 @@
     .btn-bwm-search {
       border-color: $main-color;
       color: $main-color;
+
   
  
       &:hover, &:focus, &:active {
@@ -36,4 +43,6 @@
         box-shadow: none;
       }
     }
+
+    
   }
